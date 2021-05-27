@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GranBikes</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../../public/images/logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../public/styles/main.css" />
+    <link rel="stylesheet" href="../../public/styles/part/header.css" />
+    <link rel="stylesheet" href="../../public/styles/pages/signup.css" />
+    <link rel="stylesheet" href="../../public/styles/part/snackbar.css" />
+  </head>
+  <body>
+    <header class="flex-container">
+      <nav>
+        <a></a>
+      </nav>
+      <a href="index.html"
+        ><img src="../../public/images/logo.svg" id="logo"
+      /></a>
+    </header>
+    <div class="container">
+      <div id="same">
+        <div class="carda">
+          <image src="../../public/images/sign.svg" id="enter" />
+          <label>Informe Nome</label>
+          <input type="text" placeholder="fulano de tal" />
+          <label>Informe seu E-mail</label>
+          <input type="email" placeholder="exemplo@abc.com" />
+          <label>Insira a sua Senha</label>
+          <input type="password" placeholder="Senha" />
+        </div>
+        <div class="cardb">
+          <label>Nome de Login</label>
+          <input type="text" placeholder="" id="user" />
+          <label>Informe seu CPF</label>
+          <input
+            type="number"
+            placeholder="111.111.111-11"
+            id="cpf"
+            inputmode="number"
+          />
+          <label>Informe seu Telefone</label>
+          <input
+            type="number"
+            placeholder="(11)11111-1111"
+            id="fone"
+            inputmode="number"
+          />
+          <label>Informe seu Endereço</label>
+          <input
+            placeholder="Avenue A, 1, xxxxxx-xx"
+            id="adress"
+            inputmode="number"
+          />
+          <div id="registre">
+            <h5>Já possui uma conta?</h5>
+            <a href="login.html" class="button">Logar</a>
+          </div>
+          <button onclick="myFunction()">Registrar</button>
+          <div id="snackbar">Conta Criada com Sucesso</div>
+        </div>
+      </div>
+    </div>
+    <script src="../../public/scripts/signup.js"></script>
+  </body>
+</html>
